@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Screen</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="animation">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+<nav>
+    <ul>
+
+        <li>
+            <a href="index.html">Home</a>
+        </li>
+        <li>
+            <a>About Me</a>
+            <ul class="dropdown">
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="mailto:latchman.chattergoon96@qmail.cuny.edu">Email Me</a></li>
+            </ul>
+        </li>
+        <li>
+            <a>Course</a>
+            <ul class="dropdown">
+                <li><a href="https://gaia.cs.umass.edu/kurose_ross/index.php" target ="_blank">Kurose & Ross</a></li>
+                <li><a href="https://www.w3schools.com/" target ="_blank">W3 Schools</a></li>
+                <li><a href="https://www.geeksforgeeks.org/web-development/" target ="_blank">Geeks For Geeks</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <a>Browser</a>
+            <ul class="dropdown">
+                <li><a href="navigator.html">Navigator</a></li>
+                <li><a href="window.html">Window</a></li>
+                <li><a href="screen.html">Screen</a></li>
+                <li><a href="location.html">Location</a></li>
+                <li><a href="geolocation.html">GeoLocation</a></li>
+            </ul>
+        </li>
+
+    </ul>
+
+
+    <h1>Screen Info: </h1>
+    <h2>
+        <script>
+            document.write("Width: " + screen.width+ "<br>" );
+            document.write("Height: " + screen.height+ "<br>" );
+            document.write("Avail height: " + screen.availHeight+ "<br>" );
+            document.write("Avail width: " + screen.availWidth+ "<br>" );
+            document.write("Color depth: " + screen.colorDepth+ "<br>" );
+            document.write("Pixel Depth: " + screen.pixelDepth+ "<br>" );
+
+        </script>
+    </h2>
+</nav>
+</body>
+</html>
